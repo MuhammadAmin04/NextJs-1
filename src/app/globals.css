@@ -1,0 +1,327 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.container {
+  max-width: 1040px;
+  padding: 0 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  background-size: cover;
+  background: url("../../public/rasmlar/Noise.png"),
+    rgb(8, 8, 8) 0% 0% / 100px 100px no-repeat;
+}
+
+.about {
+  background-image: url("../../public/rasmlar/portrait.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+
+.header__wrapper h1 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header__wrapper h1 span {
+  color: #00e689;
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header__wrapper p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  width: 45%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.header__wrapper button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 14px 25px;
+  background: #faa40c;
+}
+
+.header__wrapper button span {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about__wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.course {
+  opacity: 0.8;
+  background: url("../../public/Gradient.png"),
+    lightgray 0px -256.793px / 100% 100% no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.course__wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.course__wrapper .c__card {
+  position: relative;
+}
+
+.c__card--title {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.c__card--title p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.c__card--title span {
+  color: #00e689;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.grid__wrapper {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.grid1 .angry-grid {
+  display: grid;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  gap: 20px;
+  height: 100%;
+}
+
+.grid1 .item-0 {
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+  grid-row-end: 3;
+  grid-column-end: 4;
+}
+.grid1 .item-1 {
+  grid-row-start: 1;
+  grid-column-start: 4;
+
+  grid-row-end: 4;
+  grid-column-end: 7;
+}
+.grid1 .item-2 {
+  grid-row-start: 3;
+  grid-column-start: 1;
+
+  grid-row-end: 5;
+  grid-column-end: 4;
+}
+.grid1 .item-3 {
+  grid-row-start: 4;
+  grid-column-start: 4;
+
+  grid-row-end: 6;
+  grid-column-end: 7;
+}
+.grid1 .item-4 {
+  grid-row-start: 5;
+  grid-column-start: 1;
+
+  grid-row-end: 7;
+  grid-column-end: 4;
+}
+.grid1 .item-5 {
+  grid-row-start: 6;
+  grid-column-start: 4;
+
+  grid-row-end: 8;
+  grid-column-end: 7;
+}
+.grid1 .item-6 {
+  grid-row-start: 7;
+  grid-column-start: 1;
+
+  grid-row-end: 9;
+  grid-column-end: 4;
+}
+.grid1 .item-7 {
+  grid-row-start: 8;
+  grid-column-start: 4;
+
+  grid-row-end: 10;
+  grid-column-end: 7;
+}
+.grid1 .item-8 {
+  grid-row-start: 9;
+  grid-column-start: 1;
+
+  grid-row-end: 10;
+  grid-column-end: 4;
+}
+
+.grid__ {
+  padding: 40px;
+  border: 2px solid rgba(250, 164, 12, 0.5);
+}
+
+.grid__ h2 {
+  color: #00e689;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.grid__ h1 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.grid__ p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.item-8 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  border: none;
+}
+
+.item-8 p {
+  width: 50%;
+
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.item-8 button {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 14px 25px;
+  background: #faa40c;
+}
+
+.item-8 button span {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+footer {
+  padding: 80px 0;
+  background: url("../..//public/Gradient1.png"),
+    lightgray 0px 0px / 100% 100% no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer__wrapper {
+  width: 100%;
+  padding: 0 150px;
+  margin: 0 auto;
+}
+
+.footer__wrapper h1 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.footer__wrapper h1 span {
+  color: #00e689;
+  font-family: "Roboto", sans-serif;
+
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer__wrapper p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  margin: 20px auto;
+}
+
+.footer__wrapper h3 {
+  color: #faa40c;
+  font-family: "Roboto", sans-serif;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
